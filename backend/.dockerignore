@@ -1,0 +1,9 @@
+__pycache__/
+vectorshift/
+*.pyc
+*.env
+*.log
+*.db
+.vscode/
+.idea/
+.DS_Store

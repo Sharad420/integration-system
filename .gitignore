@@ -1,0 +1,39 @@
+# === Python ===
+*.pyc
+**/__pycache__/
+*.sqlite3
+*.log
+
+# === Virtual Environments ===
+backend/vectorshift/
+
+
+# === dotenv files (Secrets!) ===
+backend/.env.*
+backend/.env
+.env.*        # e.g. .env.dev, .env.prod
+.env
+
+# === VSCode / IDEs ===
+.vscode/
+.idea/
+
+# === Node / React ===
+node_modules/
+frontend/build/
+frontend/.next/       # in case you're using Next.js
+frontend/.cache/
+npm-debug.log
+yarn-error.log
+
+# === Docker ===
+*.pid
+*.sock
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Other ===
+*.swp
+*.pdf
