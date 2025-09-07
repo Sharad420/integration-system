@@ -6,7 +6,7 @@ from kombu.utils.url import safequote
 
 print("REDIS_HOST =", os.getenv("REDIS_HOST"))  # Should print 'localhost'
 redis_host = safequote(os.environ.get('REDIS_HOST', 'localhost'))
-redis_port = safequote(os.environ.get('REDIS_PORT', '6379'))
+redis_port = safequote(os.environ.get('REDIS_PORT', '6380'))
 redis_client = redis.Redis(host=redis_host, port=redis_port, db=0)
 
 async def add_key_value_redis(key, value, expire=None):
